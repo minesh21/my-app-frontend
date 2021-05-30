@@ -14,7 +14,7 @@ function App() {
   const [ romanNumeral, setRomanNumeral ] = useState('NaN');
 
   const submitConverter = () => {
-    ConverterService.baseToBase(fromValue, fromBase, toValue)
+    ConverterService.baseToBase(fromValue, fromBase, toBase)
     .then(res => {
       setToValue(res.data);
     })
