@@ -1,6 +1,6 @@
-let env = process.env.REACT_PUBLIC_ENV;
+let env = process.env.REACT_APP_ENV;
 
-if (!env) env = 'dev';
+if (!env) env = 'development';
 
 const environments = {
     'development': {

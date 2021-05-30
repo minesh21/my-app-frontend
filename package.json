@@ -12,8 +12,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "REACT_PUBLIC_ENV=development react-scripts start",
-    "build": "REACT_PUBLIC_ENV=production react-scripts build",
+    "start": "REACT_APP_ENV=development react-scripts start",
+    "build": "REACT_APP_ENV=production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
